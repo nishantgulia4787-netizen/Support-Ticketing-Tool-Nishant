@@ -1,44 +1,38 @@
-# Support Ticketing Tool
+# Support Ticketing System
 
-A support ticketing system with:
+## 📌 Project Description
+A full-stack ticket raising system where users can create, manage, and track support tickets.
 
-- Spring Boot backend
-- React + Vite frontend
-- Local H2 database for development
-- Ticket analytics dashboard
+## 🛠 Technologies Used
+- Backend: Java (Spring Boot)
+- Frontend: React (Vite)
+- Database: H2 / MySQL
+- Tools: Git, GitHub
 
-## Project structure
+## ⚙️ Features
+- Create tickets
+- View tickets
+- Update ticket status
+- Delete tickets
 
-- `backend/` - Spring Boot API
-- `frontend/` - React frontend
-- `schema.sql` - Reference SQL schema
+## 🚀 How to Run
 
-## Run locally
+### Backend
+cd backend  
+mvn spring-boot:run  
 
-Open two terminals.
+Runs on: http://localhost:8080  
 
-Backend:
+### Frontend
+cd frontend  
+npm install  
+npm run dev  
 
-```bash
-cd backend
-mvn spring-boot:run
-```
+Runs on: http://localhost:5173  
 
-Frontend:
+## 📂 Project Structure
+- backend/ → Spring Boot API  
+- frontend/ → React UI  
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Then open:
-
-```text
-http://localhost:5173
-```
-
-## Notes
-
-- The backend uses an embedded H2 database by default for local development.
-- The frontend proxies API requests to `http://localhost:8080`.
+## 🔗 GitHub Repository
+(Add your repo link here)
