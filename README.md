@@ -35,5 +35,4 @@ Runs on: http://localhost:5173
 - frontend/ → React UI  
 
 ## 🔗 GitHub Repository
-[(Add your repo link here)
-](https://github.com/nishantgulia4787-netizen/Support-Ticketing-Tool-Nishant)
+[View GitHub Repository](https://github.com/nishantgulia4787-netizen/Support-Ticketing-Tool-Nishant)
